@@ -1,0 +1,10 @@
+[project]
+name = "Hola Mundo ESP32"
+
+[env]
+board = "esp32-devkit-v1"
+
+[wokwi]
+version = 1
+firmware = ".pio/build/esp32dev/firmware.bin"
+elf = ".pio/build/esp32dev/firmware.elf"
