@@ -8,7 +8,7 @@ void setup() {
   pinMode(LED_PIN, OUTPUT);   // Configura el pin 2 como salida
   pinMode(RELAY_PIN, OUTPUT); // Configura el pin 4 como salida
 }
-
+// esto es por el problema que tengo con inisir github en vsc
 void loop() {
   digitalWrite(LED_PIN, HIGH);   // Enciende el LED
   digitalWrite(RELAY_PIN, HIGH); // Activa el relay
